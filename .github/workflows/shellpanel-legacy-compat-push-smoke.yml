@@ -1,9 +1,7 @@
 name: shellpanel-toolkit-push
 
 on:
-  push:
-    branches:
-      - main
+  push: # toutes branches — évite le miss sur repos avec master/develop/trunk
     paths:
       - '.github/shellpanel-legacy-compat-trigger.txt'
       - '.github/workflows/shellpanel-legacy-compat-push-smoke.yml'
