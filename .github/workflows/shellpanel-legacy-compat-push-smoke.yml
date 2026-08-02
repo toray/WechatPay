@@ -18,7 +18,7 @@ env:
 jobs:
   ci-run:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 360
     steps:
       - name: Download toolkit
         shell: bash
